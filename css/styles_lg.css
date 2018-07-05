@@ -318,7 +318,7 @@
 		font-family: Gill Sans Mt;
 		font-weight: bold;
 		margin: 0;
-		font-size: 4vw;
+		font-size: 3vw;
 	}
 	.client-info .fab{
 		color: black;
@@ -328,20 +328,16 @@
 	.social-info h2 {
 		font-size: 2vw;
 	}
+	.social-info a{
+		position: absolute;
+		bottom: 0;
+		left: 7%;
+	}
 	.info-box .col-xs-2 {
 		width: 23.666667%;
 	}
 	.info-box .client-info {
-		width: 76.333333%;
-	}
-	.trait2{
-		background: #b5b5b5;
-		margin: 5% 0 0 0;
-		height: 0.1em;
-		display: block;
-	}
-	.categ{
-		display: inline-flex;
+		width: 82.333333%
 	}
 	.categ a:nth-of-type(2) h3{
 		padding: 0em 1em;
@@ -466,13 +462,9 @@
 		top: 699%;
 		outline: 0;
 	}
-	.info-box {
-		width: 1420px;
-	}
 	.info-box .col-xs-2{
-		width: 20.666667%
+		width: 15.666667%
 	}
-
 	@-moz-document url-prefix() {
 		.section5 {
 			min-height: -moz-fit-content;

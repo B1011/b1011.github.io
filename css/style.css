@@ -1189,33 +1189,48 @@ nav > li {
 .custom-ss{
   margin: 0 !important;
 }
+@media (max-width: 768px) {
+  .social-info a{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+  }
+  .social-info i{
+    padding-top: 2%;
+  }
+}
 .client-info h1{
   font-family: Gill Sans Mt;
   font-weight: bold;
   margin: 0;
-  font-size: 7vw;
+  font-size: 5vw
 }
 .client-info .fab{
   color: black;
-  font-size: 4vw;
+  font-size: 3.5vw;
 }
 .social-info {
   display: inline-flex;
   position: relative;
-  padding: 5% 0 0 7%;
 }
 .social-info h2{
   font-size: 4vw;
   padding-left: 1em;
 }
-.trait2 {
-  background: #b5b5b5;
-  height: 1px;
-  margin: 8% auto;
-  display: block;
-}
-.categ{
+.categ {
   display: inline-flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: flex-end;
+}
+.col-trait:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-top: 1px solid gray;
+  width: 100%;
 }
 .categ h3 {
   font-size: 2.4vw;
@@ -1248,11 +1263,14 @@ nav > li {
 }
 .info-box
 .client-info{
-  width: 78.333333%;
+  width: 75.333333%
 }
 .info-box
 .slick-track{
   margin-left: 0
+}
+.info-box {
+  width: -webkit-fill-available
 }
 .top-navbar-custom{
   padding: 3em 1em 1em 1em;
@@ -1443,6 +1461,9 @@ ul {
   .categ a:nth-of-type(3) h3 {
     padding-left: 5px;
   }
+  .client-info .fab {
+    padding-top: 6%;
+  }
   .info-box .col-xs-2 {
     width: 34.666667%;
     padding-right: 0;
@@ -1451,10 +1472,6 @@ ul {
   .client-info {
     width: 65.333333%;
     padding: 0;
-  }
-  .categ {
-    display: block;
-    padding-right: 0;
   }
   .client-info
   .row
@@ -1471,7 +1488,7 @@ ul {
 }
 @media (min-width: 599px) and (max-width: 769px) {
   .info-box .col-xs-2 {
-    width: 30.666667%;
+    width: 25.666667%
   }
   .info-box .client-info {
     width: 65.333333%;
@@ -1594,8 +1611,10 @@ footer h1{
   height: inherit;
 }
 .client-info .col-xs-12{
-  height: 29%;
+  height: 28%;
   white-space: nowrap; 
+  padding-left: 0;
+  margin-left: 15px;
 }
 .prod-accordion {
   margin-left: 15px
