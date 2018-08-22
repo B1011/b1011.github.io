@@ -93,9 +93,9 @@
 		font-size: 15px;
 	}
 	.icon {
-		width: 62px;
-		height: 45px;
-		margin-bottom: 10%;
+		width: 75px;
+		height: 60px;
+		margin-bottom: 15%;
 		margin-right: 5%;
 		position: relative;
 	}
@@ -396,11 +396,11 @@
 	@media (min-width: 768px) and (max-width: 851px){
 		#marketing-secnav
 		.second-nav-custom li:nth-of-type(2) {
-			margin-left: 6%;
+			margin-left: 3%;
 		}
 		#prod1-secnav
 		.second-nav-custom li:nth-of-type(2) {
-			margin-left: 1%;
+			margin-left: -1%;
 		}
 	}
 	@media (min-width: 850px) and (max-width: 991px){
@@ -410,7 +410,7 @@
 		}	
 		#prod1-secnav
 		.second-nav-custom li:nth-of-type(2) {
-			margin-left: 11%;
+			margin-left: 6%;
 		}
 	}
 	.second-nav-custom li:nth-of-type(1) {

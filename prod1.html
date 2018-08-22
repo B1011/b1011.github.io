@@ -4,7 +4,7 @@
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="Pictures/logo2.png">
+	<link rel="icon" href="Pictures/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css?2">
 	<link rel="stylesheet" type="text/css" href="css/slick.css?2">
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css?2">
@@ -202,14 +202,18 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 		var cw = $('#slickSlider').width();
-		$(".ss").height(cw);
-		$('.product-list .slick-list').width(cw)
+		var cv = cw/1.7;
+		$(".ss").height(cv);
+		$('.product-list .slick-list').width(cw);
+		$('.product-logo').height(cv)
 	});
 
 	$(window).resize(function(){
 		var cw = $('#slickSlider').width();
-		$(".ss").height(cw);
-		$('.product-list .slick-list').width(cw)
+		var cv = cw/1.7;
+		$(".ss").height(cv);
+		$('.product-list .slick-list').width(cw);
+		$('.product-logo').height(cv)
 	});
 </script>
 <script>
