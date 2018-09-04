@@ -104,6 +104,9 @@
 		width: 535px;
 		padding-top: 31%;
 	}
+	.info-box .col-xs-2 {
+		width: 17.666667%;
+	}
 	.sec31 h1 {
 		font-size: 11px;
 		display: grid;

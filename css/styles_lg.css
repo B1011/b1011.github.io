@@ -348,8 +348,8 @@
 		bottom: 0;
 		left: 7%;
 	}
-	.info-box .col-xs-2 {
-		width: 23.666667%;
+	.col-trait {
+		height: 26% !important;
 	}
 	.info-box .client-info {
 		width: 82.333333%
