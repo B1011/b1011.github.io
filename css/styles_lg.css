@@ -227,8 +227,8 @@
 		font-size: 17px;
 	}
 	.social-icon{
-		width: 17px;
-		height: 17px;
+		width: 0;
+		height: 0px;
 		padding-right: 26px;
 	}
 	input[type="text"], input[type="password"] {
@@ -333,15 +333,15 @@
 		font-family: Gill Sans Mt;
 		font-weight: bold;
 		margin: 0;
-		font-size: 3vw;
+		font-size: 3.7vh;
 	}
 	.client-info .fab{
 		color: black;
-		font-size: 2vw;
+		font-size: 2.7vh;
 		padding-right: 4%;
 	}
 	.social-info h2 {
-		font-size: 2vw;
+		font-size: 2.7vh;
 	}
 	.social-info a{
 		position: absolute;
@@ -360,7 +360,7 @@
 		border-left: 1.5px solid black;
 	}
 	.categ h3{
-		font-size: 1.8vw;
+		font-size: 2.7vh;
 	}
 	.categ a:nth-of-type(3) h3{
 		padding-left: 1em;
@@ -370,7 +370,7 @@
 		text-decoration: none;
 	}
 	.product-logo{
-		margin: 3em 0em 2em 0em;
+		margin: 1.5em 0em 1.5em 0em
 	}
 	.product-logo img{
 		height: 100%;
