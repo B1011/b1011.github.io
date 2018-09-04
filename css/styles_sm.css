@@ -4,7 +4,9 @@
 	}
 }
 @media (min-width: 768px) {
-	
+	.col-trait {
+		height: 20% !important;
+	}
 	#cd-vertical-nav {
 		display: block;
 	}
@@ -51,6 +53,14 @@
 		height: 35px;
 		width: 35px;
 	}
+	.part21{
+		bottom: 3%;
+		position: absolute;
+		width: 55%;
+		left: 6.8%;
+		top: unset;
+		display: block;
+	}
 	@media(min-width: 767px) and (max-width: 993px){
 		.section2 {
 			min-height: fit-content;
@@ -77,12 +87,11 @@
 		margin-left: 6.333333%
 	}
 	.part2 {
-		top: 248px;
-		margin-left: 50px;
-		padding: 0 0 0 55px;
-		width: 250px;
-		background-position: 26% 0%;
-		background-size: 3em;
+		width: 37%;
+		left: 8.8%;
+		background-position-y: 68%;
+		background-position-x: 6.8%;
+		background-size: 13%;
 	}
 	.part2 h1 {
 		text-align: left;
@@ -93,8 +102,10 @@
 		font-size: 15px;
 	}
 	.icon {
-		width: 75px;
-		height: 60px;
+		width: 56px;
+		min-width: 56px;
+		height: 54px;
+		min-height: 54px;
 		margin-bottom: 15%;
 		margin-right: 5%;
 		position: relative;
@@ -109,8 +120,6 @@
 		padding-top: 2%;
 	}
 	.section3 .container:nth-of-type(2){
-		margin-left: 7%;
-		margin-right: 7%;
 		width: -webkit-fill-available;
 		width: -moz-fill-available;
 		padding-top: 20px;
@@ -127,7 +136,6 @@
 	.sec31 .col-lg-3 {
 		border-right: 1px solid rgba(147,126,116,0.5);
 		border-bottom: 0px;
-		height: 225px;
 		padding: 1em;
 	}
 	.sec31 h1{
@@ -155,13 +163,7 @@
 	}
 	.sec41{
 		height: 35em;
-	}
-	.sec411{
-		background: url(../Pictures/ph-marketing.png);
-		background-size: cover;
-		background-position: center;
-		padding: 0;
-		background-repeat: no-repeat;
+		width: 50%
 	}
 	.sec412{
 		background-repeat: no-repeat;
@@ -172,6 +174,29 @@
 		background: linear-gradient(to right, #b57667 0%, #efe1de 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+	}
+	#drop4:hover .icon4{
+		background: url(../Pictures/ic4.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#drop3:hover .icon3{
+		background: url(../Pictures/ic3.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#drop2:hover .icon2{
+		background: url(../Pictures/ic2.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#drop1:hover .icon1{
+		background: url(../Pictures/ic1.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.sec311 {
+		height: 30vh;
 	}
 	@media only screen and (min-width: 768px){
 		.sec311:hover .txt{
@@ -354,6 +379,7 @@
 		padding: 0 !important;
 		width: inherit !important;
 		font-size: 1em;
+		line-height: 45px;
 	}
 	.second-nav-custom li a:hover{
 		color: rgb(9,86,159) !important;
@@ -382,6 +408,7 @@
 		width: -webkit-fill-available;
 		width: -moz-available;
 		text-align: center;
+		height: 45px;
 	}
 	.second-nav-custom li:nth-of-type(8) {
 		float: right;
@@ -495,7 +522,7 @@
 	.info p{
 		font-size: 16px;
 	}
-	
+
 }
 @-moz-document url-prefix(){
 

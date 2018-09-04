@@ -76,16 +76,12 @@
 		width: 400px;
 	}
 	.part2 {
-		width: 356px;
-		top: 275px;
-		padding-left: 120px;
-		padding-right: 0;
-		padding-top: 0;
-		background: url(../Pictures/qw1.png);
-		background-repeat: no-repeat;
-		background-position: 38% 12%;
-		background-size: 40px;
+		width: 49%;
 		margin-left: -4px;
+		left: 13.8%;
+		background-position-y: 67%;
+		background-position-x: 6.8%;
+		background-size: 11%;
 	}
 	.part2 h1 {
 		font-size: 20px;
@@ -111,13 +107,12 @@
 	.sec31 h1 {
 		font-size: 11px;
 		display: grid;
-		margin: 15% 0 0 0;
-		padding: 10% 0% 10% 10%;
+		margin: 0% 0 0 0;
+		padding: 0% 0% 10% 10%;
 	}
 	.sec31 .col-lg-3 {
-		border-right: 1px solid rgba(147,126,116,0.25);
+		border-right: 0.1vw solid rgba(147,126,116,0.25);
 		border-bottom: 0px;
-		height: 250px;
 		padding: 7px;
 	}
 	.sec311:hover .txt {
@@ -173,8 +168,8 @@
 	}
 	.trait {
 		background: white;
-		height: 2.5px;
-		width: 45px;
+		height: 0.4vh;
+		width: 3vw;
 		margin: 1em 0 0 0;
 		display: block;
 	}

@@ -23,9 +23,9 @@
 
 			<button type="button" class="navbar-toggle collapsed" id="navbar-toggle" onclick="myFunction()" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false" aria-controls="navbar">
 				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
+				<span class="icon-bar t-ic top-ic"></span>
+				<span class="icon-bar center-ic"></span>
+				<span class="icon-bar t-ic bottom-ic"></span>
 			</button>
 
 			<div class="navbar-header">
@@ -34,13 +34,13 @@
 
 			<div class="collapse navbar-collapse top-navbar products-navbar" id="bs-nav-demo">
 				<ul class="nav navbar-nav navbar-right nav-elements">
-					<li><a href="index.html#trs1"><span class='dots nav-dots'></span>Home<span class='dots nav-dots'></span></a></li>
-					<li><a href="index.html#trs2"><span class='dots nav-dots'></span>About Us<span class='dots nav-dots'></span></a></li>
-					<li><a href="index.html#trs3"><span class='dots nav-dots'></span>Expertise<span class='dots nav-dots'></span></a></li>
-					<li><a href="index.html#trs4" class="active"><span class='dots nav-dots active-dots'></span>Portfolio<span class='dots nav-dots active-dots'></span></a></li>
-					<li><a href="index.html#trs5"><span class='dots nav-dots'></span>Clients<span class='dots nav-dots'></span></a></li>
-					<li><a href="index.html#trs6"><span class='dots nav-dots'></span>Bom Mag<span class='dots nav-dots'></span></a></li>
-					<li><a href="index.html#trs7"><span class='dots nav-dots'></span>Contact Us<span class='dots nav-dots'></span></a></li>
+					<li><a href="index.html#section1"><span class='dots nav-dots'></span>Home<span class='dots nav-dots'></span></a></li>
+					<li><a href="index.html#section2"><span class='dots nav-dots'></span>About Us<span class='dots nav-dots'></span></a></li>
+					<li><a href="index.html#section3"><span class='dots nav-dots'></span>Expertise<span class='dots nav-dots'></span></a></li>
+					<li><a href="index.html#section4" class="active"><span class='dots nav-dots active-dots'></span>Portfolio<span class='dots nav-dots active-dots'></span></a></li>
+					<li><a href="index.html#section5"><span class='dots nav-dots'></span>Clients<span class='dots nav-dots'></span></a></li>
+					<li><a href="index.html#section6"><span class='dots nav-dots'></span>Bom Mag<span class='dots nav-dots'></span></a></li>
+					<li><a href="index.html#section7"><span class='dots nav-dots'></span>Contact Us<span class='dots nav-dots'></span></a></li>
 				</ul>
 			</div>
 		</div>
@@ -205,16 +205,11 @@
 </script>
 <script type="text/javascript">
 	$(document).ready(function(){
-		$('#navbar-toggle').click(function() {
-			if ($('.navbar-toggle').hasClass('close-ic')){
-				$('.navbar-toggle').removeClass('close-ic');
-				$('#navbar-toggle span').addClass('icon-bar');
-			} else{
-				$('.navbar-toggle').addClass('close-ic');
-				$('#navbar-toggle span').removeClass('icon-bar');
-			}
-
-		});
+		$('#navbar-toggle').click(function(){
+			$('.top-ic').toggleClass('first-ic');
+			$('.center-ic').toggleClass('second-ic');
+			$('.bottom-ic').toggleClass('third-ic');
+		})
 	})
 </script>
 </body>

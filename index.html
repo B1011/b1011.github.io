@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="Pictures/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css?2">
 	<link rel="stylesheet" type="text/css" href="css/slick.css?2">
@@ -74,9 +75,9 @@
 
 			<button type="button" id='navbar-toggle' class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false" aria-controls="navbar" onclick="myFunction()">
 				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
+				<span class="icon-bar t-ic top-ic"></span>
+				<span class="icon-bar center-ic"></span>
+				<span class="icon-bar t-ic bottom-ic"></span>
 			</button>
 
 			<div class="navbar-header">
@@ -124,8 +125,10 @@
 				</div>
 
 				<div class='col-lg-5 col-md-6 col-sm-6 col-xs-12 part2'>
-					<h1>How we get there, is in Bridge of Minds distinctive approach.</h1>
-					<h5>Marina Araigy, Founder</h5>
+					<div class="part21">
+						<h1>How we get there, is in Bridge of Minds distinctive approach.</h1>
+						<h5>Marina Araigy, Founder</h5>
+					</div>
 				</div>
 				<div class='col-lg-1 col-md-6 col-sm-12 col-xs-12'>
 				</div>
@@ -144,7 +147,7 @@
 			</div>
 		</div>
 		<div class='container'>
-			<div class='row sec31'>
+			<div class='row sec31 col-sm-offset-1 col-lg-offset-1 col-md-offset-1'>
 				<div class='col-lg-3 col-md-3 col-sm-3 col-xs-12 sec311' id="drop1">
 					<h1 class='txt'><span class="glyphicon icon icon1" aria-hidden="false"></span>marketing services<span class='trait'></span></h1>
 					<ul class="dropdown-content" id="drop11">
@@ -215,23 +218,25 @@
 		</div>
 		<div class='container'>
 			<div class='row'>
-				<div class='col-xs-6 sec41 sec411'>
-					<h1 class='txt2'><a href="marketing.html" class='sec4-a'><span class='sec4-dots dots'></span>Marketing<span class='sec4-dots dots'></span></a></h1>
+				<div class='col-xs-12 col-md-6 sec41 sec411'>
+					<div class="zoom-pic">
+						<h1 class='txt2'><a href="marketing.html" class='sec4-a'><span class='sec4-dots dots'></span>Marketing<span class='sec4-dots dots'></span></a></h1>
+					</div>
 				</div>
-				<div class='col-xs-6 sec41 sec412'>
-					<h1 class='txt2'><a href="#" class='sec4-a'><span class='sec4-dots dots'></span>Branding<span class='sec4-dots dots'></span></a></h1>
+				<div class='col-xs-12 col-md-6 sec41 sec412'>
+					<div class="zoom-pic2">
+						<h1 class='txt2'><a href="#" class='sec4-a'><span class='sec4-dots dots'></span>Branding<span class='sec4-dots dots'></span></a></h1>
+					</div>
 				</div>
-				<div class='col-xs-6 sec41 sec413'>
-					<h1 class='txt2'><a href="#" class='sec4-a'><span class='sec4-dots dots'></span>Digital<span class='sec4-dots dots'></span></a></h1>
+				<div class='col-xs-12 col-md-6 sec41 sec413'>
+					<div class="zoom-pic3">
+						<h1 class='txt2'><a href="#" class='sec4-a'><span class='sec4-dots dots'></span>Digital<span class='sec4-dots dots'></span></a></h1>
+					</div>
 				</div>
-				<div class='col-xs-6 sec41 sec414'>
-					<h1 class='txt2'><a href="#" class='sec4-a'><span class='sec4-dots dots'></span>PR & COMMUNICATION<span class='sec4-dots dots'></span></a></h1>
-				</div>
-				<div class='col-xs-6 sec41 sec415'>
-					<h1 class='txt2'><a href=#" class='sec4-a'><span class='sec4-dots dots'></span>Media<span class='sec4-dots dots'></span></a></h1>
-				</div>
-				<div class='col-xs-6 sec41 sec416'>
-					<h1 class='txt2'><a href="#" class='sec4-a'><span class='sec4-dots dots'></span>Production<span class='sec4-dots dots'></span></a></h1>
+				<div class='col-xs-12 col-md-6 sec41 sec414'>
+					<div class="zoom-pic4">
+						<h1 class='txt2'><a href="#" class='sec4-a'><span class='sec4-dots dots'></span>PR & COMMUNICATION<span class='sec4-dots dots'></span></a></h1>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -1041,20 +1046,6 @@
 });
 </script>
 <script type="text/javascript">
-	$(document).ready(function(){
-		$('#navbar-toggle').click(function() {
-			if ($('.navbar-toggle').hasClass('close-ic')){
-				$('.navbar-toggle').removeClass('close-ic');
-				$('#navbar-toggle span').addClass('icon-bar');
-			} else{
-				$('.navbar-toggle').addClass('close-ic');
-				$('#navbar-toggle span').removeClass('icon-bar');
-			}
-
-		});
-	})
-</script>
-<script type="text/javascript">
 	$(".home").click(function() {
 		var height = $('.navbar-default').height();
 		var offset = -80;
@@ -1104,6 +1095,33 @@
 			scrollTop: $("#section7").offset().top + offset
 		},1000);
 	});
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#navbar-toggle').click(function(){
+			$('.top-ic').toggleClass('first-ic');
+			$('.center-ic').toggleClass('second-ic');
+			$('.bottom-ic').toggleClass('third-ic');
+		})
+	})
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var x = $('.part1').height();
+		if ($(window).width() > 750) {
+			$('.part2').height(x)
+		} else {
+			return
+		}
+	});
+	$(window).resize(function(){
+		var x = $('.part1').height();
+		if ($(window).width() > 750) {
+			$('.part2').height(x)
+		} else {
+			return
+		}
+	})
 </script>
 </body>
 </html>
