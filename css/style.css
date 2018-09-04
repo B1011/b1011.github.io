@@ -889,6 +889,11 @@ input:-webkit-autofill {
   width: 29px;
   opacity: 0.3;
 }
+.flex-div {
+  display: flex;
+}
+.flex-under {
+  flex: 1
 }
 button.navbar-toggle.collapsed {
   border: 0;
@@ -1644,7 +1649,7 @@ footer h1{
   background-color: black !important;
 }
 .client-info .row:nth-of-type(1){
-  height: inherit;
+  height: 100%;
 }
 .client-info .col-xs-12{
   height: 31%;
