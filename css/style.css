@@ -891,9 +891,7 @@ input:-webkit-autofill {
 }
 .flex-div {
   display: flex;
-}
-.flex-under {
-  flex: 1
+  padding-bottom: 2%;
 }
 button.navbar-toggle.collapsed {
   border: 0;
