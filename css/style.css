@@ -375,6 +375,7 @@ input:-webkit-autofill {
    background-position-x: 48.8%;
    background-size: 8%;
    display: table;
+   height: 20vh;
  }
  .part2 h1 {
   font-family: Gill Sans MT;
@@ -1612,14 +1613,14 @@ footer h1{
 }
 .dot-lazy {
   cursor: pointer;
-  height: 2px;
-  width: 24px;
+  height: .2vh;
+  width: 1.5vw;
   background-color: #ffffffab;
   border-radius: 0;
   display: inline-block;
   transition: background-color 0.6s ease;
   margin: 0 auto;
-  margin-right: 8px;
+  margin-right: 0.3vw;
 }
 .active-lazy, 
 .dot-lazy:hover {

@@ -1,7 +1,8 @@
 
 @media(min-width: 1200px) {
 	#section2 .container,
-	#section3 .container {
+	#section3 .container,
+	.container-sec5 {
 		width: 77% !important;
 	}
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -146,11 +147,14 @@
 		height: fit-content;
 		height: -moz-fit-content;
 	}
+	#section5 .slider {
+		height: 50vh;
+	}
 	.slider {
 		width: 80%;
 		margin: 0 auto;
 		overflow: hidden;
-		height: 515px;
+		height: 70vh;
 	}
 	.slick-track{
 		display: inline-flex;
@@ -159,8 +163,8 @@
 		height: inherit;
 	}
 	.txt5 {
-		width: 655px;
-		font-size: 30px;
+		width: 100%;
+		font-size: 4vh;
 		text-align: left;
 	}
 	.section5 {
@@ -267,12 +271,19 @@
 		width: -moz-fill-available;
 	}
 	.sec41 {
-		height: 37em;
+		height: 40.43vh;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 
+
+
+	
 	/*MARKETING*/
+
+
+
+	
 	.container > .navbar-header {
 		padding-left: 5em;
 	}

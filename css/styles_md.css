@@ -82,6 +82,7 @@
 		background-position-y: 67%;
 		background-position-x: 6.8%;
 		background-size: 11%;
+		height: 67vh;
 	}
 	.part2 h1 {
 		font-size: 20px;
@@ -265,7 +266,7 @@
 		width: 18em;
 	}
 	.sec41 {
-		height: 45em;
+		height: 29.43vh;
 	}
 	.second-nav-custom li a{
 		color: rgb(132,133,137);
