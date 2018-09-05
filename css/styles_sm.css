@@ -151,7 +151,7 @@
 		background-size: 92%;
 		background-position: 53% 7%;
 	}
-	.section4 .container:nth-of-type(2){
+	.section4 .container{
 		width: 80%;
 		margin: 0 auto;
 	}
@@ -169,11 +169,6 @@
 		background-repeat: no-repeat;
 		background-position: left;
 		background-size: cover;
-	}
-	.sec41:hover .txt2 a {
-		background: linear-gradient(to right, #b57667 0%, #efe1de 100%);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
 	}
 	#drop4:hover .icon4{
 		background: url(../Pictures/ic4.png);

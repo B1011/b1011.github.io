@@ -430,8 +430,6 @@ input:-webkit-autofill {
  width: 100%;
  height: 32em;
  padding:0;
- background-repeat: no-repeat !important;
- background-size: cover !important;
  overflow: hidden;
 }
 .dots{
@@ -525,7 +523,7 @@ input:-webkit-autofill {
 .sec4-a {
   color: inherit;
   text-decoration: none;
-  font-size: inherit;
+  font-size: 3vh;
   font-family: inherit;
   width: 100%;
   height: 100%;
@@ -701,8 +699,8 @@ input:-webkit-autofill {
   position: relative;
   width: 100%;
   height: 100%;
-  background-size: 29em;
   background: url(../Pictures/ph-branding.png);
+  background-size: cover;
   background-position: center;
   padding: 0;
   background-repeat: no-repeat;
@@ -716,8 +714,8 @@ input:-webkit-autofill {
   position: relative;
   width: 100%;
   height: 100%;
-  background-size: 29em;
   background: url(../Pictures/ph-digital.png);
+  background-size: cover;
   background-position: center;
   padding: 0;
   background-repeat: no-repeat;
@@ -731,8 +729,8 @@ input:-webkit-autofill {
   position: relative;
   width: 100%;
   height: 100%;
-  background-size: 29em;
   background: url(../Pictures/ph-comm.png);
+  background-size: cover;
   background-position: center;
   padding: 0;
   background-repeat: no-repeat;

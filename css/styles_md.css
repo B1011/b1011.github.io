@@ -135,11 +135,6 @@
 		background-size: 90%;
 		background-position: 53% 7%;
 	}
-	.sec41:hover .txt2 a {
-		background: linear-gradient(to right, #b57667 0%, #efe1de 100%);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-	}
 	.info h1 {
 		font-size: 20px;
 	}
@@ -383,8 +378,8 @@
 	.section6 .container,
 	.section7 .container,
 	footer .container{
-		margin-left: 12%;
-		margin-right: 12%;
+		margin-left: 11%;
+		margin-right: 11%;
 		max-width: -webkit-fill-available;
 		max-width: -moz-available;
 	}

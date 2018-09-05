@@ -127,9 +127,9 @@
 		padding: 0 0 0 10px
 	}
 	.txt4 {
-		font-size: 30px;
+		font-size: 4vh;
 		text-align: left !important;
-		width: 700px;
+		width: 100%;
 	}
 	.section6 {
 		padding-bottom: 15em;
@@ -157,11 +157,6 @@
 		outline-color: #0000;
 		margin-left: 190px;
 		height: inherit;
-	}
-	.sec41:hover .txt2 a {
-		background: linear-gradient(to right, #b57667 0%, #efe1de 100%);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
 	}
 	.txt5 {
 		width: 655px;
