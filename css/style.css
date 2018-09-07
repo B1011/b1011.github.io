@@ -355,7 +355,7 @@ input:-webkit-autofill {
     src: url('../fonts/Bodoni.ttf');
   }
   .black-line{
-    color: black !important
+    background-color: black !important
   }
   .part1 h1 {
     font-family: bodoni;
@@ -898,9 +898,6 @@ input:-webkit-autofill {
 }
 button.navbar-toggle.collapsed {
   border: 0;
-}
-.navbar-toggle:hover .icon-bar{
-  background-color: black;
 }
 .empty-space-ul{
   height: 20px;
