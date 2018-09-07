@@ -354,6 +354,9 @@ input:-webkit-autofill {
     font-family: bodoni;
     src: url('../fonts/Bodoni.ttf');
   }
+  .black-line{
+    color: black !important
+  }
   .part1 h1 {
     font-family: bodoni;
     color: rgb(0,88,169);

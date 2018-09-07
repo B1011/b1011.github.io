@@ -498,7 +498,7 @@
 	<section id="section6" class="cd-section section6">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12">
+				<div class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12">
 					<h1 class='txt'>Discover & Experience Bridge of Minds news and trends!</h1>
 				</div>
 			</div>
@@ -990,19 +990,6 @@
 		}
 	})
 </script>
-<!-- <script type="text/javascript">
-	$(document).ready(function() {
-		var cw = $('.sec41').width();
-		var cv = cw/2
-		$(".sec41").height(cv);
-	});
-
-	$(window).resize(function(){
-		var cw = $('.sec41').width();
-		var cv = cw/2
-		$(".sec41").height(cv);
-	});
-</script> -->
 <script type="text/javascript">
 		// Select all links with hashes
 		$('a[href*="#"]')
@@ -1044,49 +1031,49 @@
 <script type="text/javascript">
 	$(".home").click(function() {
 		var height = $('.navbar-default').height();
-		var offset = -80;
+		var offset = -74;
 		$('html, body').animate({
 			scrollTop: $("#section1").offset().top + offset
 		},1000);
 	});
 	$(".aboutus").click(function() {
 		var height = $('.navbar-default').height();
-		var offset = -80;
+		var offset = -74;
 		$('html, body').animate({
 			scrollTop: $("#section2").offset().top + offset
 		},1000);
 	});
 	$(".expertise").click(function() {
 		var height = $('.navbar-default').height();
-		var offset = -80;
+		var offset = -74;
 		$('html, body').animate({
 			scrollTop: $("#section3").offset().top + offset
 		},1000);
 	});
 	$(".portfolio").click(function() {
 		var height = $('.navbar-default').height();
-		var offset = -80;
+		var offset = -74;
 		$('html, body').animate({
 			scrollTop: $("#section4").offset().top + offset
 		},1000);
 	});
 	$(".clients").click(function() {
 		var height = $('.navbar-default').height();
-		var offset = -80;
+		var offset = -74;
 		$('html, body').animate({
 			scrollTop: $("#section5").offset().top + offset
 		},1000);
 	});
 	$(".bommag").click(function() {
 		var height = $('.navbar-default').height();
-		var offset = -80;
+		var offset = -74;
 		$('html, body').animate({
 			scrollTop: $("#section6").offset().top + offset
 		},1000);
 	});
 	$(".contactus").click(function() {
 		var height = $('.navbar-default').height();
-		var offset = -80;
+		var offset = -74;
 		$('html, body').animate({
 			scrollTop: $("#section7").offset().top + offset
 		},1000);
@@ -1098,6 +1085,7 @@
 			$('.top-ic').toggleClass('first-ic');
 			$('.center-ic').toggleClass('second-ic');
 			$('.bottom-ic').toggleClass('third-ic');
+			$('#navbar-toggle').toggleClass('black-line');
 		})
 	})
 </script>
