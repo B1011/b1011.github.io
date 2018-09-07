@@ -4,8 +4,12 @@
 	#section3 .container,
 	.container-sec5,
 	#section6 .container,
-	#section7 .container {
+	#section7 .container,
+	.info-box {
 		width: 77% !important;
+	}
+	#client-logo img {
+		width: 100%;
 	}
 	#section6 .col-lg-offset-1 {
 		margin-left: 1.333333%;
@@ -246,6 +250,12 @@
 		padding-right: 26px;
 		cursor: pointer;
 	}
+	.navbar-default {
+		padding: 3vh 1.5vh 1.5vh 1.5vh;
+	}
+	.row-eq-height img {
+		width: 100%;
+	}
 	input[type="text"], input[type="password"] {
 		width: 90%;
 		font-size: 2.2vh;
@@ -335,7 +345,7 @@
 		color: black !important;
 	}
 	.top-navbar-custom{
-		box-shadow: 0px 1px 15px grey;
+		box-shadow: 0px 0.1vh 2vh grey;
 		background: white;
 	}
 	.top-navbar-custom .nav-elements li a{
@@ -351,12 +361,12 @@
 		float: left !important;
 	}
 	.second-nav-custom li{
-		width: 15em;
+		width: 9.8vw;
 		display: inline-block;
 		float: unset;
 	}
 	.second-nav-custom li:nth-of-type(5){
-		width: 20em;
+		width: 11.8vw;
 	}
 	.second-nav-custom li a{
 		width: 100% !important;
@@ -376,8 +386,11 @@
 		width: fit-content;
 		width: -moz-fit-content;
 	}
+	.client-info .col-xs-12 {
+		margin-left: 1vw;
+	}
 	.navbar-default .second-nav-custom > li > a {
-		font-size: 16px;
+		font-size: 2.2vh;
 	}
 	.client-info h1{
 		font-family: Gill Sans Mt;
@@ -388,7 +401,8 @@
 	.client-info .fab{
 		color: black;
 		font-size: 2.7vh;
-		padding-right: 4%;
+		padding-right: 2.5vw;
+		padding-top: 1vh;
 	}
 	.social-info h2 {
 		font-size: 2.7vh;
@@ -420,7 +434,8 @@
 		text-decoration: none;
 	}
 	.product-logo{
-		margin: 1.5em 0em 1.5em 0em
+		margin: 1.5vh 0 1.5vh 0;
+		padding: 0 1.5vh;
 	}
 	.product-logo img{
 		height: 100%;
@@ -449,8 +464,10 @@
 		font-size: 1.3em;
 	}
 	.back-close{
-		top: 0.5em;
-		font-size: 3em;
+		top: 0.5vh;
+		font-size: 2vh;
+		height: 4vh;
+		width: 1.8vw;
 	}
 	.second-nav-custom li:nth-of-type(1){
 		float: left;
@@ -463,17 +480,18 @@
 	.second-navbar-custom .top-navbar{
 		width: -webkit-fill-available;
 		width: -moz-fill-available;
-		padding: 2em 0 0 0;
+		padding:2.7vh 0 0 0;
 	}
 	.second-navbar-custom .top-navbar ul{
 		width: -webkit-fill-available;
 		width: -moz-fill-available;
 		text-align: center;
-		padding-right: 0
+		padding-right: 0;
+		height: 6.3vh;
 	}
 	.close-sign {
-		height: 40px;
-		width: 40px;
+		height: 5vh;
+		width: 2.5vw;
 	}
 	.part1 h1 {
 		font-size: 4vh;
@@ -483,6 +501,9 @@
 		font-size: 3vh;
 		text-align: left;
 		width: 95%;
+	}
+	.products-icons .col-sm-3 {
+		padding: 1vh !important;
 	}
 	.section-trans-1-2 {
 		position: absolute;

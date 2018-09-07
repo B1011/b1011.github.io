@@ -1274,7 +1274,7 @@ nav > li {
   position: absolute;
   top: 50%;
   left: 0;
-  border-top: 1px solid gray;
+  border-top: 0.1vh solid gray;
   width: 100%;
 }
 .categ h3 {
