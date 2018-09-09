@@ -380,7 +380,15 @@ input:-webkit-autofill {
    display: table;
    height: 20vh;
  }
- .part2 h1 {
+ .secure-mail:before{
+  content: attr(data-website) "\0040" attr(data-user);
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.email a{
+  color: inherit;
+}
+.part2 h1 {
   font-family: Gill Sans MT;
   color: rgb(195,195,195);
   font-size: 16px;
