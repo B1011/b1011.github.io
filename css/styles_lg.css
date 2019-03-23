@@ -616,5 +616,10 @@
 
 }
 .container {
-    width: 96%;
+	width: 96%;
+}
+.mag-col-ss{
+	height: 69.5vh;
+	overflow: hidden;
+	padding-left : 0;
 }
