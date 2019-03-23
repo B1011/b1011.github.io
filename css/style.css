@@ -1754,15 +1754,31 @@ footer h1{
 }
 .ss1-zoom-pic{
 	background-image: url(../Pictures/bm1.png);
+	background-size: cover;
+	height: 100%;
+	-webkit-text-fill-color: transparent !important;
+	transition-duration: 1.5s !important;
 }
 .ss2-zoom-pic{
 	background-image: url(../Pictures/bm2.png);
+	background-size: cover;
+	height: 100%;
+	-webkit-text-fill-color: transparent !important;
+	transition-duration: 1.5s !important;
 }
 .ss3-zoom-pic{
 	background-image: url(../Pictures/bm3.png);
+	background-size: cover;
+	height: 100%;
+	-webkit-text-fill-color: transparent !important;
+	transition-duration: 1.5s !important;
 }
 .ss4-zoom-pic{
 	background-image: url(../Pictures/bm4.png);
+	background-size: cover;
+	height: 100%;
+	-webkit-text-fill-color: transparent !important;
+	transition-duration: 1.5s !important;
 }
 .ss:hover .ss1-zoom-pic,
 .ss:hover .ss2-zoom-pic,
@@ -1775,7 +1791,6 @@ footer h1{
 	transform: scale(1.1);
 
 }
-
 .ss:hover .overlay-black{
 	opacity: 0.5;
 	-webkit-transition: all 1.5s;
@@ -1784,12 +1799,10 @@ footer h1{
 	transition: all 1.5s;
 
 }
-
 .ss{
 	overflow: hidden;
 
 }
-
 .info{
 	margin: 0!important;
 	bottom: 0!important;
@@ -1842,11 +1855,16 @@ footer h1{
 	padding-left: 0 !important
 }
 .dp{
-	padding: 25px;
+	padding: 28px;
+	padding-left: 0;
+	padding-bottom: 0px;
 }
 .a-mag-product{
 	display: block;
-	height: 100%
+	top: 0;
+	position: absolute;
+	height: 100%;
+	width: 10%;
 }
 .a-close img{
 	width: 53%;
