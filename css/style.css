@@ -349,7 +349,7 @@ input:-webkit-autofill{
 	background-color:black!important
 }
 .part1 h1{
-	font-family:bodoni;
+	font-family:"Bodoni 72 OS" !important;
 	color:rgb(0,88,169);
 	font-style:italic;
 	font-size:20px;
@@ -388,14 +388,14 @@ input:-webkit-autofill{
 	text-align:center
 }
 .part2 h5{
-	font-family:bodoni;
+	font-family:"Bodoni 72 OS" !important;
 	color:rgb(195,195,195);
 	text-align:center;
 	font-size:14px;
 	font-style:italic
 }
 .section3 h3,.section4 h1{
-	font-family:bodoni;
+	font-family:"Bodoni 72 OS" !important;
 	color:rgb(0,88,169);
 	font-style:italic
 }
@@ -527,7 +527,7 @@ input:-webkit-autofill{
 	color:inherit;
 	text-decoration:none;
 	font-size:3vh;
-	font-family:inherit;
+	font-family:gill sans mt;
 	width:100%;
 	height:100%;
 	display:block;
@@ -631,7 +631,7 @@ input:-webkit-autofill{
 	height:100%
 }
 .section6 .txt{
-	font-family:bodoni;
+	font-family:"Bodoni 72 OS" !important;
 	font-size:20px;
 	width:100%;
 	padding-top:15%;
@@ -816,7 +816,7 @@ input:-webkit-autofill{
 	width:100%
 }
 .info h1{
-	font-family:bodoni;
+	font-family:"Bodoni 72 OS" !important;
 	font-size:19px;
 	position:relative;
 	margin:0;
@@ -848,7 +848,8 @@ input:-webkit-autofill{
 	text-align:center;
 	padding-top:4%;
 	padding-bottom:5%;
-	width:100%
+	width:100%;
+	font-family: "Bodoni 72 OS" !important
 }
 .sec41:hover .txt2 a{
 	background:linear-gradient(to right,#b57667 0%,#efe1de 100%);
@@ -860,17 +861,17 @@ input:-webkit-autofill{
 	display:none;
 	font-size:15px;
 	text-align:center;
-	font-family:bodoni;
 	color:rgb(0,88,169);
 	font-style:italic;
 	margin:0 auto;
-	width:100%
+	width:100%;
+	font-family: "Bodoni 72 OS" !important
 }
 .txt5-sm{
 	display:block;
 	font-size:20px;
 	text-align:center;
-	font-family:bodoni;
+	font-family:"Bodoni 72 OS" !important;
 	color:rgb(0,88,169);
 	font-style:italic;
 	margin:0 auto;
@@ -926,7 +927,7 @@ button.navbar-toggle.collapsed{
 	font-size:15px;
 	padding-top:10%;
 	text-align:center;
-	font-family:bodoni;
+	font-family:"Bodoni 72 OS" !important;
 	font-style:italic;
 	background:linear-gradient(to right,rgb(160,102,89) 0%,rgb(243,222,215) 100%);
 	-webkit-background-clip:text;
@@ -937,7 +938,7 @@ button.navbar-toggle.collapsed{
 	font-size:20px;
 	text-align:center;
 	margin:0;
-	font-family:bodoni;
+	font-family:"Bodoni 72 OS" !important;
 	font-style:italic;
 	background:linear-gradient(to right,rgb(160,102,89) 0%,rgb(243,222,215) 100%);
 	-webkit-background-clip:text;
@@ -1083,7 +1084,7 @@ input[type="submit"]:active{
 	padding-top:4%
 }
 .twoblocks h1{
-	font-family:bodoni;
+	font-family:"Bodoni 72 OS" !important;
 	color:white;
 	font-style:italic;
 	font-size:1.2em
@@ -1538,7 +1539,7 @@ footer .container{
 }
 @media(min-width:450px) and (max-width:768px){
 	.twoblocks h1{
-		font-family:bodoni;
+		font-family:"Bodoni 72 OS" !important;
 		color:white;
 		font-style:italic;
 		font-size:16px
