@@ -116,7 +116,7 @@
 	}
 
 	.txt4{
-		font-size:26px;text-align:left;font-family:"Bodoni 72 OS" !important;color:rgb(0,88,169);font-style:italic;padding-bottom:15%;width:595px
+		font-size:26px;text-align:left;font-family:"Bodoni 72 OS" !important;color:#0033a0;font-style:italic;padding-bottom:15%;width:595px
 	}
 
 	.txt5{
@@ -394,11 +394,4 @@
 	.part1 h1{
 		padding-top:2%
 	}
-
-	.section6{
-		margin-bottom:0
-	}
-
-
 }
-

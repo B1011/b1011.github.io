@@ -349,7 +349,7 @@ input:-webkit-autofill{
 	background-color:black!important
 }
 .part1 h1{
-	font-family:"Bodoni 72 OS" !important;
+	font-family:bodoni!important;
 	color:rgb(0,88,169);
 	font-style:italic;
 	font-size:20px;
@@ -395,7 +395,7 @@ input:-webkit-autofill{
 	font-style:italic
 }
 .section3 h3,.section4 h1{
-	font-family:"Bodoni 72 OS" !important;
+	font-family:bodoni !important;
 	color:rgb(0,88,169);
 	font-style:italic
 }
@@ -443,7 +443,7 @@ input:-webkit-autofill{
 	margin:0em .3em .1em .3em
 }
 .active-dots{
-	background-color:rgb(9,86,159);
+	background-color:#0033a0;
 	display:inline-block
 }
 .white{
@@ -479,7 +479,7 @@ input:-webkit-autofill{
 	outline:0
 }
 .active{
-	color:rgb(9,86,159)!important;
+	color:#0033a0!important;
 	background-color:transparent;
 	font-weight:700
 }
@@ -866,13 +866,13 @@ input:-webkit-autofill{
 	font-style:italic;
 	margin:0 auto;
 	width:100%;
-	font-family: "Bodoni 72 OS" !important
+	font-family: bodoni !important
 }
 .txt5-sm{
 	display:block;
 	font-size:20px;
 	text-align:center;
-	font-family:"Bodoni 72 OS" !important;
+	font-family:bodoni !important;
 	color:rgb(0,88,169);
 	font-style:italic;
 	margin:0 auto;
@@ -969,7 +969,7 @@ input[type="text"],input[type="password"]{
 	outline-color:rgba(0,0,0,0)
 }
 input[type="text"]:focus,input[type="password"]:focus{
-	border-bottom:2px solid rgb(9,86,159);
+	border-bottom:2px solid #0033a0;
 	transition:0.2s ease;
 	outline-color:rgba(0,0,0,0)
 }
@@ -977,7 +977,7 @@ input[type="submit"]{
 	width:17em;
 	height:32px;
 	background:rgba(0,0,0,0);
-	border:2px solid rgb(9,86,159);
+	border:2px solid #0033a0;
 	color:white;
 	font-family:'Roboto',sans-serif;
 	text-transform:uppercase;
@@ -1031,15 +1031,15 @@ input[type="submit"]:active{
 }
 @supports (-ms-ime-align:auto){
 	.section7 textarea:focus{
-		border:1px solid rgb(9,86,159)
+		border:1px solid #0033a0
 	}
 
 }
 .section7 textarea:focus{
-	outline-color:rgb(9,86,159)
+	outline-color:#0033a0
 }
 .left{
-	background:rgb(9,86,159);
+	background:#0033a0;
 	padding-bottom:1em
 }
 .left h1,h3{

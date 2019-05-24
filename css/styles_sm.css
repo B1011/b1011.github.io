@@ -268,7 +268,7 @@
 	#drop1:hover .icon1{
 		background:url(../Pictures/ic1.png);
 		background-repeat:no-repeat;
-		background-size:cover
+		background-size:contain
 
 
 	}
@@ -351,7 +351,8 @@
 
 	}
 	.section6 .txt{
-		font-family:"Bodoni 72 OS" !important;
+		font-family: bodoni !important;
+		font-style: italic;
 		font-size:22px;
 		text-align:left;
 		width:330px;
@@ -425,7 +426,7 @@
 		font-size:22px;
 		text-align:left;
 		width:405px;
-		font-family:"Bodoni 72 OS" !important;
+		font-family:bodoni !important;
 		padding-top:6%;
 		padding-bottom:6%;
 		font-style:italic;
