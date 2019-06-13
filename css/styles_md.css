@@ -1,4 +1,7 @@
 @media(min-width:992px){
+	.a-mag-product{
+		height: 69%;
+	}
 	.navbar-default .container{
 		width:-webkit-fill-available;width:-moz-fill-available;width:100%
 	}

@@ -645,7 +645,6 @@ input:-webkit-autofill{
 }
 .slick-initialized .slick-slide{
 	display:block;
-	height:fit-content;
 	height:-moz-fit-content
 }
 .slider{
@@ -1849,17 +1848,37 @@ footer h1{
 	font-size: 20px;
 	color: rgb(164,164,164);
 }
-.mag-content h3:nth-of-type(1){
-	font-weight: bold;
-	color: black;
-}
 .mag-cont .col-xs-8{
 	padding-left: 0 !important
 }
-.dp{
+.dp {
 	padding: 28px;
 	padding-left: 0;
 	padding-bottom: 0px;
+	height: 37vh;
+	width: 29vw;
+	padding-right: 0;
+}
+.col-mag1-h1{
+	width: 58.33333333%;
+}
+.mag-col-ss {
+	height: 53.5vh !important;
+	overflow: hidden;
+	padding-left: 0;
+}
+.recommended-art .ss {
+	height: 29em;
+}
+.recommended-art .info {
+	margin: 0!important;
+	bottom: 0!important;
+	position: absolute!important;
+	top: 44vh;
+	max-height: fit-content;
+}
+.mag-cont .col-xs-12{
+	padding: 0
 }
 .a-mag-product{
 	display: block;
@@ -1867,6 +1886,16 @@ footer h1{
 	position: absolute;
 	height: 100%;
 	width: 10%;
+}
+.mag-content{
+	padding-top: 35vh
+}
+.intro-h3{
+	font-weight: bold;
+	font-style: italic;
+	color: black;
+	font-family: bodoni!important;
+	font-size: 3.5vh;
 }
 .a-close img{
 	width: 53%;
@@ -1926,4 +1955,30 @@ footer h1{
 }
 .mag-div-img{
 	padding: 0
+}
+.overlay-article{
+	position: absolute;
+	width: 95.5%;
+	bottom: 2%;
+	height: 0%;
+	overflow: hidden;
+	transition: all 1s;
+	background: rgba(0,0,0,0.4);
+}
+.active{
+	height: 30%;
+}
+.overlay-article a{
+	font-size: 4vh;
+	font-family: gill sans mt;
+	color: white;
+	font-weight: 500;
+	width: 100%;
+	display: block;
+	text-align: center;
+	height: 100%;
+	padding: 8%;
+}
+.overlay-article a:hover{
+	text-decoration: none;
 }

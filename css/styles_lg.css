@@ -1,4 +1,15 @@
 @media(min-width:1200px){
+	.mag-col-ss{
+		height: 69.5vh !important;
+		overflow: inherit;
+		padding-left : 0;
+	}
+	.recommended-art .info {
+		top: 65vh;
+	}
+	.a-mag-product{
+		height: 100%;
+	}
 	#section2 .container,#section3 .container,.container-sec5,#section6 .container,#section7 .container,.info-box{
 		width:77%!important
 	}
@@ -617,9 +628,4 @@
 }
 .container {
 	width: 96%;
-}
-.mag-col-ss{
-	height: 69.5vh;
-	overflow: hidden;
-	padding-left : 0;
 }
