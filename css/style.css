@@ -312,7 +312,7 @@ input:-webkit-autofill{
 	outline:0
 }
 .section2 p:nth-of-type(1){
-	font-family:Gill Sans MT;
+	font-family:MuseoSans_300;
 	font-size:16px;
 	color:black;
 	line-height:1.4em;
@@ -342,14 +342,14 @@ input:-webkit-autofill{
 	color:white
 }
 @font-face{
-	font-family:bodoni;
-	src:url(../fonts/Bodoni.ttf)
+	font-family:MuseoSans_300;
+	src:url(../fonts/MuseoSans_300.ttf)
 }
 .black-line{
 	background-color:black!important
 }
 .part1 h1{
-	font-family:bodoni!important;
+	font-family:MuseoSans_300!important;
 	color:rgb(0,88,169);
 	font-style:italic;
 	font-size:20px;
@@ -380,7 +380,7 @@ input:-webkit-autofill{
 	color:inherit
 }
 .part2 h1{
-	font-family:Gill Sans MT;
+	font-family:MuseoSans_300;
 	color:rgb(195,195,195);
 	font-size:16px;
 	width:100%;
@@ -388,20 +388,20 @@ input:-webkit-autofill{
 	text-align:center
 }
 .part2 h5{
-	font-family:"Bodoni 72 OS" !important;
+	font-family:MuseoSans_300;
 	color:rgb(195,195,195);
 	text-align:center;
 	font-size:14px;
 	font-style:italic
 }
 .section3 h3,.section4 h1{
-	font-family:bodoni !important;
+	font-family:MuseoSans_300 !important;
 	color:rgb(0,88,169);
 	font-style:italic
 }
 .section3 h1{
 	font-size:15px;
-	font-family:Gill Sans Mt;
+	font-family:MuseoSans_300;
 	text-transform:uppercase;
 	color:white;
 	text-align:left;
@@ -485,7 +485,7 @@ input:-webkit-autofill{
 }
 .sec41 h1{
 	background-color:rgba(0,0,0,0);
-	font-family:Gill Sans MT;
+	font-family:MuseoSans_300;
 	color:white;
 	height:100%;
 	width:100%;
@@ -513,7 +513,7 @@ input:-webkit-autofill{
 	background:rgba(0,0,0,.2)!important;
 	margin-top:0;
 	margin-bottom:0;
-	font-family:gill sans mt!important;
+	font-family:MuseoSans_300!important;
 	font-size:2em!important
 }
 .sec41:hover .txt2{
@@ -527,7 +527,7 @@ input:-webkit-autofill{
 	color:inherit;
 	text-decoration:none;
 	font-size:3vh;
-	font-family:gill sans mt;
+	font-family:MuseoSans_300;
 	width:100%;
 	height:100%;
 	display:block;
@@ -542,7 +542,7 @@ input:-webkit-autofill{
 	padding:0
 }
 .sec311{
-	font-family:Gill Sans MT
+	font-family:MuseoSans_300
 }
 .sec311 ul{
 	padding-left:2em
@@ -632,7 +632,7 @@ input:-webkit-autofill{
 	height:100%
 }
 .section6 .txt{
-	font-family:"Bodoni 72 OS" !important;
+	font-family:MuseoSans_300;
 	font-size:20px;
 	width:100%;
 	padding-top:15%;
@@ -816,7 +816,7 @@ input:-webkit-autofill{
 	width:100%
 }
 .info h1{
-	font-family:"Bodoni 72 OS" !important;
+	font-family:MuseoSans_300;
 	font-size:19px;
 	position:relative;
 	margin:0;
@@ -828,7 +828,7 @@ input:-webkit-autofill{
 	display:none!important
 }
 .info p{
-	font-family:gill sans mt;
+	font-family:MuseoSans_300;
 	font-size:14px;
 	color:#bbb9b9
 }
@@ -849,7 +849,7 @@ input:-webkit-autofill{
 	padding-top:4%;
 	padding-bottom:5%;
 	width:100%;
-	font-family: "Bodoni 72 OS" !important
+	font-family: MuseoSans_300
 }
 .sec41:hover .txt2 a{
 	background:linear-gradient(to right,#b57667 0%,#efe1de 100%);
@@ -865,13 +865,13 @@ input:-webkit-autofill{
 	font-style:italic;
 	margin:0 auto;
 	width:100%;
-	font-family: bodoni !important
+	font-family: MuseoSans_300 !important
 }
 .txt5-sm{
 	display:block;
 	font-size:20px;
 	text-align:center;
-	font-family:bodoni !important;
+	font-family:MuseoSans_300 !important;
 	color:rgb(0,88,169);
 	font-style:italic;
 	margin:0 auto;
@@ -927,7 +927,7 @@ button.navbar-toggle.collapsed{
 	font-size:15px;
 	padding-top:10%;
 	text-align:center;
-	font-family:"Bodoni 72 OS" !important;
+	font-family:MuseoSans_300;
 	font-style:italic;
 	background:linear-gradient(to right,rgb(160,102,89) 0%,rgb(243,222,215) 100%);
 	-webkit-background-clip:text;
@@ -938,7 +938,7 @@ button.navbar-toggle.collapsed{
 	font-size:20px;
 	text-align:center;
 	margin:0;
-	font-family:"Bodoni 72 OS" !important;
+	font-family:MuseoSans_300;
 	font-style:italic;
 	background:linear-gradient(to right,rgb(160,102,89) 0%,rgb(243,222,215) 100%);
 	-webkit-background-clip:text;
@@ -1002,7 +1002,7 @@ input[type="submit"]:active{
 	width:9em;
 	padding:1em 0em 0em 0em;
 	text-align:center;
-	font-family:gill sans mt;
+	font-family:MuseoSans_300;
 	margin:0 auto
 }
 .or{
@@ -1084,13 +1084,13 @@ input[type="submit"]:active{
 	padding-top:4%
 }
 .twoblocks h1{
-	font-family:"Bodoni 72 OS" !important;
+	font-family:MuseoSans_300;
 	color:white;
 	font-style:italic;
 	font-size:1.2em
 }
 .twoblocks h3{
-	font-family:Gill Sans MT;
+	font-family:MuseoSans_300;
 	color:white;
 	margin:1em
 }
@@ -1236,7 +1236,7 @@ nav>li{
 
 }
 .client-info h1{
-	font-family:Gill Sans Mt;
+	font-family:MuseoSans_300;
 	font-weight:700;
 	margin:0;
 	font-size:5vw
@@ -1539,7 +1539,7 @@ footer .container{
 }
 @media(min-width:450px) and (max-width:768px){
 	.twoblocks h1{
-		font-family:"Bodoni 72 OS" !important;
+		font-family:MuseoSans_300;
 		color:white;
 		font-style:italic;
 		font-size:16px
@@ -1828,7 +1828,7 @@ footer h1{
 
 }
 .mag-cont .mag1-h1{
-	font-family: "Bodoni 72 OS" !important;
+	font-family: MuseoSans_300;
 	font-size: 36px;
 }
 .mag-author{
@@ -1837,14 +1837,14 @@ footer h1{
 	border-bottom: 1px solid rgb(39,107,175);
 	font-size: 20px;
 	padding: 10px;
-	font-family: "Bodoni 72 OS" !important;
+	font-family: MuseoSans_300;
 }
 .mag-author span{
 	color: rgb(164,164,164);
 	font-size: 15px
 }
 .mag-content h3{
-	font-family: "Bodoni 72 OS" !important;
+	font-family: MuseoSans_300;
 	font-size: 20px;
 	color: rgb(164,164,164);
 }
@@ -1894,7 +1894,7 @@ footer h1{
 	font-weight: bold;
 	font-style: italic;
 	color: black;
-	font-family: bodoni!important;
+	font-family: MuseoSans_300!important;
 	font-size: 3.5vh;
 }
 .a-close img{
@@ -1911,7 +1911,7 @@ footer h1{
 	padding: 0
 }
 .recommended-art .title h1{
-	font-family: "Bodoni 72 OS" !important;
+	font-family: MuseoSans_300;
 	font-size: 30px;
 	margin-left: 5px;
 	color: rgb(39,107,175);
@@ -1970,7 +1970,7 @@ footer h1{
 }
 .overlay-article a{
 	font-size: 4vh;
-	font-family: gill sans mt;
+	font-family: MuseoSans_300;
 	color: white;
 	font-weight: 500;
 	width: 100%;

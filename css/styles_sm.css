@@ -15,7 +15,7 @@
 
 
 	.mag-cont .mag1-h1{
-		font-family: "Bodoni 72 OS" !important;
+		font-family: MuseoSans_300;
 		font-size: 36px;
 	}
 	.mag-author{
@@ -24,7 +24,7 @@
 		border-bottom: 1px solid rgb(39,107,175);
 		font-size: 20px;
 		padding: 10px;
-		font-family: "Bodoni 72 OS" !important;
+		font-family: MuseoSans_300;
 	}
 	.mag-author span{
 		color: rgb(164,164,164);
@@ -35,7 +35,7 @@
 		padding: 0 20px;
 	}
 	.mag-content h3{
-		font-family: "Bodoni 72 OS" !important;
+		font-family: MuseoSans_300;
 		font-size: 20px;
 		color: rgb(164,164,164);
 	}
@@ -73,7 +73,7 @@
 		padding: 0
 	}
 	.recommended-art .title h1{
-		font-family: "Bodoni 72 OS" !important;
+		font-family: MuseoSans_300;
 		font-size: 30px;
 		margin-left: 5px;
 		color: rgb(39,107,175);
@@ -467,7 +467,7 @@
 
 	}
 	.section6 .txt{
-		font-family: bodoni !important;
+		font-family: MuseoSans_300 !important;
 		font-style: italic;
 		font-size:22px;
 		text-align:left;
@@ -542,7 +542,7 @@
 		font-size:22px;
 		text-align:left;
 		width:405px;
-		font-family:bodoni !important;
+		font-family:MuseoSans_300 !important;
 		padding-top:6%;
 		padding-bottom:6%;
 		font-style:italic;
@@ -783,7 +783,7 @@
 
 	}
 	.client-info h1{
-		font-family:Gill Sans Mt;
+		font-family:MuseoSans_300;
 		font-weight:700;
 		margin:0;
 		font-size:3.7vh

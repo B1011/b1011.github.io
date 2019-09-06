@@ -151,7 +151,11 @@
 		padding-bottom:15em;
 		padding-top:6%;
 		background-size:79%;
-		background-position:50% 0%
+		background-position:50% 0%;
+		max-height: 128%;
+	}
+	.section7 {
+		max-height: 132%;
 	}
 	.lazy .slick-list{
 		height:inherit
@@ -181,16 +185,19 @@
 		font-size:4vh;
 		text-align:left
 	}
-	.section5{
-		min-height:fit-content;
-		min-height:-moz-fit-content;
-		max-height:fit-content;
-		max-height:-moz-fit-content;
-		background-size:100%,cover;
-		padding-top:13%;
-		padding-bottom:3%;
-		background-position:50% 0%,center
+	.section5 {
+		min-height: unset;
+		min-height: -moz-fit-content;
+		max-height: unset;
+		max-height: -moz-fit-content;
+		background-size: 100%,cover;
+		padding-top: 13%;
+		height: 110%;
+		padding-bottom: 3%;
+		background-position: 50% 0%,center;
 	}
+
+
 	.ss{
 		height:100%!important
 	}
@@ -388,7 +395,7 @@
 		font-size:2.2vh
 	}
 	.client-info h1{
-		font-family:Gill Sans Mt;
+		font-family:MuseoSans_300;
 		font-weight:700;
 		margin:0;
 		font-size:3.7vh
